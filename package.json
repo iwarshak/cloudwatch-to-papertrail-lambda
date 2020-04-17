@@ -1,0 +1,24 @@
+{
+  "name": "cloudwatch-to-papertrail-lambda",
+  "version": "0.0.1",
+  "description": "AWS lambda that will forward CloudWatch logs to Papertrail",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install; zip -r cloudwatch-to-papertrail-lambda.zip . -x '*.git*'"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "cloudwatch",
+    "papertrail",
+    "logs",
+    "cdk"
+  ],
+  "author": "Ian Warshak",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.4.11",
+    "winston": "^2.2.0",
+    "winston-papertrail": "^1.0.2"
+  }
+}
