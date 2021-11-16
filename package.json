@@ -17,7 +17,7 @@
   "author": "Ian Warshak",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.4.11",
+    "aws-sdk": "^2.814.0",
     "winston": "^2.2.0",
     "winston-papertrail": "^1.0.2"
   }
