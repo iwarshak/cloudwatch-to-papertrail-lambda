@@ -18,6 +18,6 @@
   "license": "ISC",
   "dependencies": {
     "winston": "^3.11.0",
-    "winston-papertrail": "^1.0.5"
+    "winston-papertrail-transport": "^1.0.8"
   }
 }
